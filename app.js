@@ -14,6 +14,7 @@ function playQuiz(question,answer){
     score += 1;
   } else {
     console.log("You answered wrong!");
+    console.log("Right Answer is : "+ answer);
   }
 
   console.log("Your Score : " + score);
